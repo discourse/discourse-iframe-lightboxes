@@ -10,58 +10,58 @@ html.with-featherlight{overflow:hidden}.featherlight{display:none;position:fixed
 //****************************************************************//
 
 html.with-featherlight {
-	margin-right: 16px;
+  margin-right: 16px;
 }
 
 .featherlight iframe {
-	height: 90vh;
-	width: 95vw !important; // due to inline width property
-	max-width: 1920px;
-	max-height: 1080px;
+  height: 90vh;
+  width: 95vw !important; // due to inline width property
+  max-width: 1920px;
+  max-height: 1080px;
 }
 
 .featherlight .featherlight-content {
-	padding: 0;
-	border-bottom: 0;
-	margin-left: 0;
-	margin-right: 0;
-	max-height: unset;
-	overflow: visible;
+  padding: 0;
+  border-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  max-height: unset;
+  overflow: visible;
 }
 
 .featherlight {
-	cursor: -moz-zoom-out;
-	cursor: -webkit-zoom-out;
-	cursor: zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
 }
 
 .fExpand {
-	float: right;
-	margin-bottom: -30px;
-	z-index: 1;
-	position: relative;
+  float: right;
+  margin-bottom: -30px;
+  z-index: 1;
+  position: relative;
 
-	.fa {
-		margin: 0;
-	}
+  .fa {
+    margin: 0;
+  }
 }
 
 .featherlight .featherlight-close-icon {
-	top: -25px;
-	background: none;
-	line-height: 1;
-	font-size: 24px;
-	right: -3px;
-	color: white;
-	transition: color 0.35s ease-in-out;
-	&:hover {
-		color: red;
-	}
+  top: -25px;
+  background: none;
+  line-height: 1;
+  font-size: 24px;
+  right: -3px;
+  color: white;
+  transition: color 0.35s ease-in-out;
+  &:hover {
+    color: red;
+  }
 }
 
 .featherlight-iframe .featherlight-content {
-	@media only screen and (max-width: 1024px) {
-		padding: 0;
-		border-bottom: 0;
-	}
+  @media only screen and (max-width: 1024px) {
+    padding: 0;
+    border-bottom: 0;
+  }
 }
