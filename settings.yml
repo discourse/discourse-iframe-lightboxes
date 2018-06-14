@@ -1,0 +1,5 @@
+iframe_origin_domains:
+  type: list
+  default: "codepen.io|google.com/maps|openstreetmap.org"
+  description:
+    en: 'Specify a list of iframe origin domains to target'
