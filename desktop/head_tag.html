@@ -4,7 +4,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min
 
 <script type="text/discourse-plugin" version="0.8.18">
 $.fn.dframes = function() {
-  links = settings.iframe_origin_domains;
+  var links = settings.iframe_origin_domains;
 
   var link = links.split("|"),
     dframe = this.find("iframe[src*='" + link.join("'],iframe[src*='") + "']"),
@@ -16,7 +16,6 @@ $.fn.dframes = function() {
     })();
 
   dframe.each(function() {
-    srcc = $(this).attr("src");
     $(this).attr("id", rando);
     var fId = $(this).attr("id");
     $(this)
