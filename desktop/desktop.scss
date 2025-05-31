@@ -19,12 +19,12 @@ html.with-featherlight {
   z-index: 2147483647;
   text-align: center;
   white-space: nowrap;
-  background: rgba(0, 0, 0, 0);
+  background: rgb(0, 0, 0, 0);
   cursor: zoom-out;
 }
 
 .featherlight:last-of-type {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(0, 0, 0, 0.8);
 }
 
 .featherlight::before {
@@ -96,7 +96,7 @@ html.with-featherlight {
   padding: 0;
   -webkit-overflow-scrolling: touch;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (width <= 1024px) {
     padding: 0;
     border-bottom: 0;
   }
@@ -114,7 +114,7 @@ html.with-featherlight {
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (width <= 1024px) {
   .featherlight .featherlight-content {
     margin-left: 0;
     margin-right: 0;
